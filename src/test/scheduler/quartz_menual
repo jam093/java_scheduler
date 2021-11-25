@@ -1,0 +1,6 @@
+quartz 기초 개념
+
+scheduler.scheduleJob(jobDetail, trigger);
+ - jobDetail > Job의 실제 구현 내용과 Job 실행에 필요한 상세 정보가 담겨있다.
+ - trigger > Job을 언제, 어떤 주기로 얼마나 실행할 지에 대한 정보가 담겨있다.
+ - scheduler > jobDetail과 trigger에 담긴 정보를 이용해서 실제 Job의 실행 스케쥴링을 담당한다.
